@@ -10,7 +10,7 @@ body {
 
 h1 {
    height: 72px;
-  background: lightsalmon;
+  background:  darkorange;
   color: white;
   /* Add in display and flex direction */
   display: flex;
@@ -27,4 +27,40 @@ h1 {
   flex: 1;
   display: flex;
 }
+
+.sidebar {
+  width: 300px;
+  background: lightsalmon;
+  box-sizing: border-box;
+
+  /* Add flex shrink and padding */
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+ul {
+  /* Remove bullet points */
+  list-style-type: none;
+
+  /* Remove default margin and padding from u-list */
+  margin: 0;
+  padding: 0;
+}
+
+/* Format list items */
+li {
+  /* Adjust margin from bottom of list items (spaces out) */
+  margin-bottom: 16px;
+}
+
+a {
+  /* Colour white */
+  color: black;
+
+/* Remove underline from hyperlink */
+  text-decoration: none;
+
+/* Change text font size to 24px */
+  font-size: 24px;
+  }
   
