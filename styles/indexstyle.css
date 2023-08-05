@@ -87,7 +87,8 @@ a {
 }
 
 .footer {
-  height: 50px;
+  /* Change back to 50 */
+  height: 49px;
   background: #eee;
   color: darkmagenta;
 
