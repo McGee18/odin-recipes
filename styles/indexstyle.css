@@ -62,5 +62,37 @@ a {
 
 /* Change text font size to 24px */
   font-size: 24px;
-  }
+}
+
+.container {
+  /* Add display and flex wrap */
+  display: flex;
+  flex-wrap: wrap;
   
+  /* Add padding to move list away from margin */
+  padding: 32px;
+}
+  
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+
+  /* Add padding to separate each individual  text card.*/
+  padding: 16px;
+  /* Increase thickness of margin to further separate each card. */
+  margin: 16px;
+  /* Set the width of each card to 300px */
+  width: 300px;
+}
+
+.footer {
+  height: 50px;
+  background: #eee;
+  color: darkmagenta;
+
+  /* Add display flex, align items to the centre and justify content to center. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
