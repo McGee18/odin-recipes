@@ -1,0 +1,25 @@
+
+.body {
+    display: flex;
+    border: 5px dotted blue;
+}
+
+.sidebar{
+    order: 1;
+    width: 200px;
+    border: 5px dotted red;
+}
+
+.content{
+    order: 2;
+    min-width: 12em;
+    border: 5px dotted yellow;
+    flex: 1;
+}
+
+.sidebar2{
+    order: 3;
+    width: 200px;
+    border: 5px dotted red;
+}
+
